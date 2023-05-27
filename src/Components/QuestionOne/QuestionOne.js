@@ -13,6 +13,7 @@ const QuestionOne = () => {
     setInputValues({ ...inputValues, [name]: value });
   };
 
+  
     return (
         <div>
               {/* Question-1 */}
@@ -30,9 +31,6 @@ const QuestionOne = () => {
           <br />
           <input type="submit" value="Submit" />
         </form>
-        <button>Active</button>
-        <button>complete</button>
-        <button>All</button>
         
       </div>
         </div>

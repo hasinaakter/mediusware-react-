@@ -6,7 +6,7 @@ const LoadModal = ({Contact}) => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('https://contact.mediusware.com/api-doc/')
+        fetch('https://contact.mediusware.com/api-doc')
             .then(res => res.json())
             .then(data => setItems(data));
 
